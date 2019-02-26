@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IReceiver.cs" />
+    <Compile Include="IRequester.cs" />
     <Compile Include="ITransceiver.cs" />
     <Compile Include="ITransmitter.cs" />
     <Compile Include="JsonFormatter.cs" />
