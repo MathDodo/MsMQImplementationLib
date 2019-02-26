@@ -4,7 +4,7 @@ namespace Data
 {
     public sealed class MessageQueuesManager : SingletonBase<MessageQueuesManager>
     {
-        private const string PRIVATE_PATH = @".\Private$\BluffCityAirportCase";
+        private const string PRIVATE_PATH = @".\Private$\";
 
         private MessageQueuesManager()
         {

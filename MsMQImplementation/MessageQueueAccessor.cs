@@ -16,7 +16,7 @@ namespace Data
             }
         }
 
-        public void ReceiveQueue(Type queueReceiveType, MessageQueue messageQueue)
+        public void ReceivingQueue(Type queueReceiveType, MessageQueue messageQueue)
         {
             _msgReceivingQueues.Add(queueReceiveType, messageQueue);
         }

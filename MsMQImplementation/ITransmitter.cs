@@ -4,6 +4,6 @@ namespace Data
 {
     public interface ITransmitter<T>
     {
-        void SendMessage(MessageQueue messageQueue);
+        void SendMessage(MessageQueue messageQueue, T messageBody);
     }
 }
